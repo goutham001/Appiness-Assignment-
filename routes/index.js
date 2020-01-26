@@ -7,4 +7,5 @@ module.exports = (app) => {
     app.post('/product/create_product', productController.createProd);
     app.post('/product/create_bulk', productController.createBulk);
     app.post('/goutham')
+    app.post('/naren')
 }
