@@ -6,4 +6,5 @@ module.exports = (app) => {
     app.post('/category/create_many', catergoryController.createMany);
     app.post('/product/create_product', productController.createProd);
     app.post('/product/create_bulk', productController.createBulk);
+    app.post('/goutham')
 }
